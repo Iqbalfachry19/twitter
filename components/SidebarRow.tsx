@@ -6,7 +6,7 @@ interface Props {
 function SidebarRow({ Icon, title }: Props) {
   return (
     <div>
-      <Icon />
+      <Icon className="h-6 w-6" />
       <p>{title}</p>
     </div>
   )
